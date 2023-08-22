@@ -12,7 +12,7 @@ function Header() {
   };
 
   return (
-    <>
+    <div className="relative">
       <h1 className="font-extrabold text-4xl lg:text-5xl tracking-[-1px] lg:tracking-[0px] text-zinc-200">
         <a href="#home">Angel Maury</a>
       </h1>
@@ -25,7 +25,7 @@ function Header() {
         Experiencias Profesionales que Dejan Huella.
       </p>
 
-      <div className="hidden lg:flex lg:flex-col lg:justify-center lg:mt-16 lg:gap-4">
+      <div className="hidden lg:flex lg:flex-col lg:justify-center lg:mt-10 lg:gap-4">
         {links.map((link) => (
           <a
             href={link.url}
@@ -46,7 +46,7 @@ function Header() {
         ))}
       </div>
 
-      <div className="flex items-center mt-6 lg:mt-36 gap-6">
+      <div className="flex items-center mt-6 absolute lg:-bottom-20 gap-6">
         <Link href="https://github.com/angelitoMaury" target="_blank">
           <AiOutlineGithub
             size={30}
@@ -60,7 +60,7 @@ function Header() {
           />
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 
