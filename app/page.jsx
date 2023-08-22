@@ -3,8 +3,6 @@ import Header from "@/components/Header";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 
-import "@/styles/globals.css";
-
 export default function Home() {
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl py-12 px-6 md:px-12 md:py-20 lg:py-0 lg:px-24">

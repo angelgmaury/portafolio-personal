@@ -1,5 +1,5 @@
 import React from "react";
-import TitleSection from "./titleSection";
+import TitleSection from "./TitleSection";
 
 function AboutSection() {
   return (

@@ -1,4 +1,4 @@
-import TitleSection from "./titleSection";
+import TitleSection from "./TitleSection";
 import SkillComponent from "./SkillComponent";
 
 function SkillsSection() {

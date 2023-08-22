@@ -2,7 +2,7 @@
 import { projects } from "@/data/projects";
 import Image from "next/image";
 import React, { useState } from "react";
-import TitleSection from "./titleSection";
+import TitleSection from "./TitleSection";
 import { FiArrowUpRight } from "react-icons/fi";
 import { GoRepoForked } from "react-icons/go";
 import Link from "next/link";
