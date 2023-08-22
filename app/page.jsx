@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import Header from "@/components/Header";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
+
 import "@/styles/globals.css";
 
 export default function Home() {

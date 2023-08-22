@@ -1,9 +1,16 @@
+"use client";
 import { links } from "@/data/links";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
 
 function Header() {
+  const [currentSection, setCurrentSection] = useState("about"); // Estado para realizar un seguimiento de la sección actual
+
+  const handleSectionChange = (section) => {
+    setCurrentSection(section);
+  };
+
   return (
     <>
       <h1 className="font-extrabold text-4xl lg:text-5xl tracking-[-1px] lg:tracking-[0px] text-zinc-200">
@@ -23,9 +30,14 @@ function Header() {
           <a
             href={link.url}
             key={link.id}
-            className="flex items-center space-x-2"
+            className={`flex items-center space-x-2`}
+            onClick={() => handleSectionChange(link.text)}
           >
-            <span className="border-t border-b border-zinc-100 h-0 w-8"></span>
+            <span
+              className={`border-t border-b border-zinc-100 h-0 ${
+                currentSection === link.text ? "w-12" : "w-8"
+              } transition-all `}
+            ></span>
 
             <span className="text-zinc-100 uppercase tracking-[1px] text-sm">
               {link.text}

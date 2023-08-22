@@ -18,13 +18,13 @@ function ProjectsSection() {
             key={project.id}
             className={`flex flex-col gap-3 transition-opacity duration-300 ${
               isHover === project.id ? "md:opacity-100" : "md:opacity-70"
-            } md:cursor-pointer`}
+            }`}
             onMouseEnter={() => setIsHover(project.id)}
             onMouseLeave={() => setIsHover(null)}
           >
             <Link href={project.deploy} target="_blank">
               <h2
-                className={`font-semibold text-xl flex items-center tracking-wide cursor-pointer ${
+                className={`font-semibold uppercase text-xl flex items-center tracking-wide cursor-pointer ${
                   isHover === project.id ? "text-[#62abeb]" : "text-zinc-200"
                 }`}
               >
@@ -51,7 +51,9 @@ function ProjectsSection() {
               />
             </Link>
 
-            <p>{project.description}</p>
+            <p className="text-sm lg:text-lg text-zinc-300">
+              {project.description}
+            </p>
 
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 md:gap-4">

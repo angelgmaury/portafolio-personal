@@ -1,63 +1,64 @@
 import {
-  FaReact,
-  FaNodeJs,
-  FaHtml5,
-  FaSass,
-  FaCss3Alt,
-  FaGitAlt,
-} from "react-icons/fa";
-import { TbBrandNextjs, TbBrandVite, TbBrandRedux } from "react-icons/tb";
-import { RiJavascriptFill } from "react-icons/ri";
+  TbBrandNextjs,
+  TbBrandVite,
+  TbBrandRedux,
+  TbBrandTailwind,
+} from "react-icons/tb";
+import { BiLogoRedux } from "react-icons/bi";
+
+import {
+  DiHtml5,
+  DiCss3,
+  DiGit,
+  DiJavascript1,
+  DiNodejsSmall,
+  DiReact,
+  DiSass,
+} from "react-icons/di";
 
 export const skills = [
   {
     title: "Html",
-    icon: <FaHtml5 size={40} />,
-    nvl: "Avanzado",
+    icon: <DiHtml5 size={40} />,
   },
   {
     title: "Css",
-    icon: <FaCss3Alt size={40} />,
-    nvl: "Intermedio - Avanzado",
-  },
-  {
-    title: "Sass",
-    icon: <FaSass size={40} />,
-    nvl: "Avanzado",
+    icon: <DiCss3 size={40} />,
   },
   {
     title: "JS",
-    icon: <RiJavascriptFill size={40} />,
-    nvl: "Avanzado",
+    icon: <DiJavascript1 size={40} />,
+  },
+  {
+    title: "Sass",
+    icon: <DiSass size={40} />,
   },
   {
     title: "NodeJS",
-    icon: <FaNodeJs size={40} />,
-    nvl: "Basico - Intermedio",
+    icon: <DiNodejsSmall size={40} />,
   },
   {
     title: "ReactJS",
-    icon: <FaReact size={40} />,
-    nvl: "Intermedio - Avanzado",
+    icon: <DiReact size={40} />,
   },
   {
     title: "Redux",
-    icon: <TbBrandRedux size={40} />,
-    nvl: "Intermedio - Avanzado",
+    icon: <BiLogoRedux size={40} />,
+  },
+  {
+    title: "Tailwind",
+    icon: <TbBrandTailwind size={40} />,
   },
   {
     title: "Git",
-    icon: <FaGitAlt size={40} />,
-    nvl: "Intermedio - Avanzado",
+    icon: <DiGit size={40} />,
   },
   {
     title: "Vite",
     icon: <TbBrandVite size={40} />,
-    nvl: "Avanzado",
   },
   {
     title: "NextJS",
     icon: <TbBrandNextjs size={40} />,
-    nvl: "Avanzado",
   },
 ];
