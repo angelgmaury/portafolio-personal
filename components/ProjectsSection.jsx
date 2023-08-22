@@ -17,7 +17,7 @@ function ProjectsSection() {
           <div
             key={project.id}
             className={`flex flex-col gap-3 transition-opacity duration-300 ${
-              isHover === project.id ? "md:opacity-100" : "md:opacity-70"
+              isHover === project.id ? "md:opacity-100" : "md:opacity-90"
             }`}
             onMouseEnter={() => setIsHover(project.id)}
             onMouseLeave={() => setIsHover(null)}
