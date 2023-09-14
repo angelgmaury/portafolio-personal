@@ -8,6 +8,16 @@ import calculatorImg from "@/public/images/calculatorPage.png";
 export const projects = [
   {
     id: 1,
+    imagen: ecomerceImg,
+    title: "Tienda De Zapatillas",
+    description:
+      "Esta es una tienda de zapatillas. Los usuarios pueden explorar una variedad de zapatillas y realizar 'compras', cuenta con un carrito de compras y filtros para zapatos de mujer y hombre.",
+    skills: ["React", "Tailwind", "Vite"],
+    deploy: "https://angelgmaury.github.io/ecommerspage-react/",
+    repo: "https://github.com/angelgmaury/ecommerspage-react",
+  },
+  {
+    id: 2,
     imagen: netflixImg,
     title: "Clon De Netflix",
     description:
@@ -17,24 +27,14 @@ export const projects = [
     repo: "https://github.com/angelitoMaury/NETFLIX-CLONE-NEXTJS",
   },
   {
-    id: 2,
-    imagen: ecomerceImg,
-    title: "Tienda De Zapatillas",
-    description:
-      "Esta es una tienda de zapatillas. Los usuarios pueden explorar una variedad de zapatillas y realizar 'compras', cuenta con un carrito de compras y filtros para zapatos de mujer y hombre.",
-    skills: ["React", "Tailwind", "Vite"],
-    deploy: "https://angelitomaury.github.io/ecommerspage-react/",
-    repo: "https://github.com/angelitoMaury/ecommerspage-react",
-  },
-  {
     id: 3,
     imagen: countriesInfoImg,
     title: "Información De Países",
     description:
       "Esta aplicación proporciona información detallada sobre diferentes países. Los usuarios pueden buscar y obtener datos importantes sobre cualquier país, como su población, idioma, bandera y más.",
     skills: ["React", "Tailwind", "Vite"],
-    deploy: "https://angelitomaury.github.io/REST-COUNTRIES-API-REACT/",
-    repo: "https://github.com/angelitoMaury/REST-COUNTRIES-API-REACT",
+    deploy: "https://angelgmaury.github.io/REST-COUNTRIES-API-REACT/",
+    repo: "https://github.com/angelgmaury/REST-COUNTRIES-API-REACT",
   },
   {
     id: 4,
@@ -43,8 +43,8 @@ export const projects = [
     description:
       "Esta aplicación de gestión de tareas permite a los usuarios crear y eliminar tareas de manera muy sencilla, manteniendo un seguimiento de sus actividades diarias de manera efectiva.",
     skills: ["React", "Tailwind", "Vite"],
-    deploy: "https://angelitomaury.github.io/todo-app-react/",
-    repo: "https://github.com/angelitoMaury/todo-app-react",
+    deploy: "https://angelgmaury.github.io/todo-app-react/",
+    repo: "https://github.com/angelgmaury/todo-app-react",
   },
   {
     id: 5,
