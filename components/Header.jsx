@@ -47,7 +47,7 @@ function Header() {
       </div>
 
       <div className="flex items-center mt-6 absolute lg:-bottom-20 gap-6">
-        <Link href="https://github.com/angelitoMaury" target="_blank">
+        <Link href="https://github.com/angelgmaury" target="_blank">
           <AiOutlineGithub
             size={30}
             className="text-zinc-300 hover:text-zinc-50"
