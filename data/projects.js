@@ -4,7 +4,7 @@ import countriesInfoImg from "@/public/images/countriesPage.png";
 import todoAppImg from "@/public/images/todo-app.png";
 import multiFormImg from "@/public/images/multiForm.png";
 import calculatorImg from "@/public/images/calculatorPage.png";
-
+import WeatherAppImg from "@/public/images/WeatherApp.png";
 export const projects = [
   {
     id: 1,
@@ -18,6 +18,16 @@ export const projects = [
   },
   {
     id: 2,
+    imagen: WeatherAppImg,
+    title: "Aplicación Del Clima",
+    description:
+      "La página del clima muestra información actualizada sobre el clima de diferentes ubicaciones en todo el mundo, incluyendo temperatura, humedad, velocidad del viento y condiciones actuales.",
+    skills: ["React", "TypeScript", "Zustand"],
+    deploy: "https://angelgmaury.github.io/weatherApp/",
+    repo: "https://github.com/angelgmaury/weatherApp",
+  },
+  {
+    id: 3,
     imagen: netflixImg,
     title: "Clon De Netflix",
     description:
@@ -27,7 +37,7 @@ export const projects = [
     repo: "https://github.com/angelitoMaury/NETFLIX-CLONE-NEXTJS",
   },
   {
-    id: 3,
+    id: 4,
     imagen: countriesInfoImg,
     title: "Información De Países",
     description:
@@ -37,7 +47,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/REST-COUNTRIES-API-REACT",
   },
   {
-    id: 4,
+    id: 5,
     imagen: todoAppImg,
     title: "App De Tareas",
     description:
@@ -47,7 +57,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/todo-app-react",
   },
   {
-    id: 5,
+    id: 6,
     imagen: multiFormImg,
     title: "Formulario Multiple",
     description:
@@ -57,7 +67,7 @@ export const projects = [
     repo: "https://github.com/angelitoMaury/multi-form",
   },
   {
-    id: 6,
+    id: 7,
     imagen: calculatorImg,
     title: "Calculadora",
     description:

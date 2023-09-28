@@ -4,7 +4,8 @@ import {
   TbBrandRedux,
   TbBrandTailwind,
 } from "react-icons/tb";
-import { BiLogoRedux } from "react-icons/bi";
+import { BiLogoRedux, BiLogoTypescript } from "react-icons/bi";
+import { SiJest, SiTestinglibrary } from "react-icons/si";
 
 import {
   DiHtml5,
@@ -40,6 +41,18 @@ export const skills = [
   {
     title: "ReactJS",
     icon: <DiReact size={40} />,
+  },
+  {
+    title: "TypeScript",
+    icon: <BiLogoTypescript size={40} />,
+  },
+  {
+    title: "Jest",
+    icon: <SiJest size={40} />,
+  },
+  {
+    title: "Testing Library",
+    icon: <SiTestinglibrary size={40} />,
   },
   {
     title: "Redux",

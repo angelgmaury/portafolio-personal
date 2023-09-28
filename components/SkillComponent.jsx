@@ -8,7 +8,9 @@ function SkillComponent() {
           {skills.map((skill) => (
             <div key={skill.id} className="flex flex-col items-center gap-1">
               <Icon iconName={skill.icon} />
-              <h3 className="text-zinc-400 uppercase text-sm">{skill.title}</h3>
+              <h3 className="text-zinc-400 uppercase text-sm text-center">
+                {skill.title}
+              </h3>
             </div>
           ))}
         </div>
