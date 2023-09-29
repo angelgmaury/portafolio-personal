@@ -22,7 +22,7 @@ export const projects = [
     title: "Aplicación Del Clima",
     description:
       "La página del clima muestra información actualizada sobre el clima de diferentes ubicaciones en todo el mundo, incluyendo temperatura, humedad, velocidad del viento y condiciones actuales.",
-    skills: ["React", "TypeScript", "Zustand"],
+    skills: ["React", "TS", "Zustand"],
     deploy: "https://angelgmaury.github.io/weatherApp/",
     repo: "https://github.com/angelgmaury/weatherApp",
   },
