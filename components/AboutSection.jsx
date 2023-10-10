@@ -10,7 +10,7 @@ function AboutSection() {
       <TitleSection title="Acerca De Mí" />
       <div className="text-zinc-300">
         <p className="mt-2 leading-[1.6rem]">
-          Soy un desarrollador web frontend Jr con una fuerte pasión por la
+          Soy un desarrollador web frontend con una fuerte pasión por la
           programación y un compromiso firme con la mejora continua. Mi
           motivación radica en abordar proyectos desafiantes y en adquirir
           constantemente nuevos conocimientos. Mi experiencia se ha forjado en
