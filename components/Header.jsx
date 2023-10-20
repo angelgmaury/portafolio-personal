@@ -53,7 +53,7 @@ function Header() {
             className="text-zinc-300 hover:text-zinc-50"
           />
         </Link>
-        <Link href="https://www.linkedin.com/in/angelg-maury/" target="_blank">
+        <Link href="https://www.linkedin.com/in/angel-g-maury" target="_blank">
           <AiFillLinkedin
             size={30}
             className="text-zinc-300 hover:text-zinc-50"
