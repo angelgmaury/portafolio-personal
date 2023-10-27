@@ -5,7 +5,7 @@ import {
   TbBrandTailwind,
 } from "react-icons/tb";
 import { BiLogoRedux, BiLogoTypescript } from "react-icons/bi";
-import { SiJest, SiTestinglibrary } from "react-icons/si";
+import { SiJest, SiTestinglibrary, SiExpress, SiMysql } from "react-icons/si";
 
 import {
   DiHtml5,
@@ -37,6 +37,14 @@ export const skills = [
   {
     title: "NodeJS",
     icon: <DiNodejsSmall size={40} />,
+  },
+  {
+    title: "Express",
+    icon: <SiExpress size={40} />,
+  },
+  {
+    title: "MySQL",
+    icon: <SiMysql size={40} />,
   },
   {
     title: "ReactJS",
