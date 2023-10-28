@@ -5,9 +5,21 @@ import todoAppImg from "@/public/images/todo-app.png";
 import multiFormImg from "@/public/images/multiForm.png";
 import calculatorImg from "@/public/images/calculatorPage.png";
 import WeatherAppImg from "@/public/images/WeatherApp.png";
+import TaskAppFS from "@/public/images/TASKAPP-FS.png";
+
 export const projects = [
   {
     id: 1,
+    imagen: TaskAppFS,
+    title: "App De Tareas FULLSTACK",
+    description:
+      "Una aplicación fullstack con React y Next.js que permite a los usuarios registrarse, gestionar sus tareas (crear, editar, eliminar) y almacena los datos en una base de datos MySQL. Proporciona una experiencia de usuario intuitiva y segura.",
+    skills: ["React", "MySQL", "TypeScript", "+3"],
+    deploy: "NO DISPONIBLE",
+    repo: "https://github.com/angelgmaury/TASKAPP-NEXTJS-REACT-MYSQL",
+  },
+  {
+    id: 2,
     imagen: ecomerceImg,
     title: "Tienda De Zapatillas",
     description:
@@ -17,7 +29,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/ecommerspage-react",
   },
   {
-    id: 2,
+    id: 3,
     imagen: WeatherAppImg,
     title: "Aplicación Del Clima",
     description:
@@ -27,7 +39,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/weatherApp",
   },
   {
-    id: 3,
+    id: 4,
     imagen: netflixImg,
     title: "Clon De Netflix",
     description:
@@ -37,7 +49,7 @@ export const projects = [
     repo: "https://github.com/angelitoMaury/NETFLIX-CLONE-NEXTJS",
   },
   {
-    id: 4,
+    id: 5,
     imagen: countriesInfoImg,
     title: "Información De Países",
     description:
@@ -47,7 +59,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/REST-COUNTRIES-API-REACT",
   },
   {
-    id: 5,
+    id: 6,
     imagen: todoAppImg,
     title: "App De Tareas",
     description:
@@ -57,7 +69,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/todo-app-react",
   },
   {
-    id: 6,
+    id: 7,
     imagen: multiFormImg,
     title: "Formulario Multiple",
     description:
@@ -67,7 +79,7 @@ export const projects = [
     repo: "https://github.com/angelitoMaury/multi-form",
   },
   {
-    id: 7,
+    id: 8,
     imagen: calculatorImg,
     title: "Calculadora",
     description:

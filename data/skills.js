@@ -1,9 +1,4 @@
-import {
-  TbBrandNextjs,
-  TbBrandVite,
-  TbBrandRedux,
-  TbBrandTailwind,
-} from "react-icons/tb";
+import { TbBrandNextjs, TbBrandVite, TbBrandTailwind } from "react-icons/tb";
 import { BiLogoRedux, BiLogoTypescript } from "react-icons/bi";
 import { SiJest, SiTestinglibrary, SiExpress, SiMysql } from "react-icons/si";
 
