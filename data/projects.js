@@ -6,7 +6,7 @@ import multiFormImg from "@/public/images/multiForm.png";
 import calculatorImg from "@/public/images/calculatorPage.png";
 import WeatherAppImg from "@/public/images/WeatherApp.png";
 import TaskAppFS from "@/public/images/TASKAPP-FS.png";
-
+import Bookmark from "@/public/images/BOOKMARK.png";
 export const projects = [
   {
     id: 1,
@@ -60,6 +60,16 @@ export const projects = [
   },
   {
     id: 6,
+    imagen: Bookmark,
+    title: "Landing page bookmark",
+    description:
+      "Una landing page simple, diseñada para demostrar habilidades de maquetación con un enfoque en la presentación visual atractiva y la usabilidad.",
+    skills: ["React", "Tailwind", "Vite"],
+    deploy: "https://angelgmaury.github.io/LANDINGPAGE-BOOKMARK/",
+    repo: "https://github.com/angelgmaury/LANDINGPAGE-BOOKMARK",
+  },
+  {
+    id: 7,
     imagen: todoAppImg,
     title: "App De Tareas",
     description:
@@ -69,7 +79,7 @@ export const projects = [
     repo: "https://github.com/angelgmaury/todo-app-react",
   },
   {
-    id: 7,
+    id: 8,
     imagen: multiFormImg,
     title: "Formulario Multiple",
     description:
@@ -79,7 +89,7 @@ export const projects = [
     repo: "https://github.com/angelitoMaury/multi-form",
   },
   {
-    id: 8,
+    id: 9,
     imagen: calculatorImg,
     title: "Calculadora",
     description:
