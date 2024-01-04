@@ -7,9 +7,20 @@ import calculatorImg from "@/public/images/calculatorPage.png";
 import WeatherAppImg from "@/public/images/WeatherApp.png";
 import TaskAppFS from "@/public/images/TASKAPP-FS.png";
 import Bookmark from "@/public/images/BOOKMARK.png";
+import TranslateApp from "@/public/images/TranslateApp.png";
 export const projects = [
   {
     id: 1,
+    imagen: ecomerceImg,
+    title: "Tienda De Zapatillas",
+    description:
+      "Esta es una tienda de zapatillas. Los usuarios pueden explorar una variedad de zapatillas y realizar 'compras', cuenta con un carrito de compras y filtros para zapatos de mujer y hombre.",
+    skills: ["React", "Tailwind", "Vite"],
+    deploy: "https://angelgmaury.github.io/ecommerspage-react/",
+    repo: "https://github.com/angelgmaury/ecommerspage-react",
+  },
+  {
+    id: 2,
     imagen: TaskAppFS,
     title: "App De Tareas FULLSTACK",
     description:
@@ -19,14 +30,14 @@ export const projects = [
     repo: "https://github.com/angelgmaury/TASKAPP-NEXTJS-REACT-MYSQL",
   },
   {
-    id: 2,
-    imagen: ecomerceImg,
-    title: "Tienda De Zapatillas",
+    id: 3,
+    imagen: TranslateApp,
+    title: "Traductor",
     description:
-      "Esta es una tienda de zapatillas. Los usuarios pueden explorar una variedad de zapatillas y realizar 'compras', cuenta con un carrito de compras y filtros para zapatos de mujer y hombre.",
-    skills: ["React", "Tailwind", "Vite"],
-    deploy: "https://angelgmaury.github.io/ecommerspage-react/",
-    repo: "https://github.com/angelgmaury/ecommerspage-react",
+      "Esta es una app de traducción simple y elegante. Traduce con facilidad entre idiomas y disfruta de un diseño atractivo.",
+    skills: ["React", "Tailwind", "TypeScript", "+1"],
+    deploy: "https://angelgmaury.github.io/translate-app/",
+    repo: "https://github.com/angelgmaury/translate-app",
   },
   {
     id: 3,

@@ -17,7 +17,7 @@ function Header() {
         <a href="#home">Angel Maury</a>
       </h1>
       <h2 className="font-semibold mt-2 text-lg lg:text-xl lg:mt-4 text-zinc-300">
-        Desarrollador Frontend
+        Desarrollador Web Frontend
       </h2>
 
       <p className="mt-4 max-w-sm lg:max-w-xs text-zinc-300 lg:mt-6 lg:text-lg">

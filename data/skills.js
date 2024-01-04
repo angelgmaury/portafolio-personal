@@ -1,6 +1,12 @@
 import { TbBrandNextjs, TbBrandVite, TbBrandTailwind } from "react-icons/tb";
 import { BiLogoRedux, BiLogoTypescript } from "react-icons/bi";
-import { SiJest, SiTestinglibrary, SiExpress, SiMysql } from "react-icons/si";
+import {
+  SiJest,
+  SiTestinglibrary,
+  SiExpress,
+  SiMysql,
+  SiNestjs,
+} from "react-icons/si";
 
 import {
   DiHtml5,
@@ -11,6 +17,7 @@ import {
   DiReact,
   DiSass,
 } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const skills = [
   {
@@ -38,8 +45,16 @@ export const skills = [
     icon: <SiExpress size={40} />,
   },
   {
+    title: "NestJs",
+    icon: <SiNestjs size={40} />,
+  },
+  {
     title: "MySQL",
     icon: <SiMysql size={40} />,
+  },
+  {
+    title: "Postgresql",
+    icon: <BiLogoPostgresql size={40} />,
   },
   {
     title: "ReactJS",
