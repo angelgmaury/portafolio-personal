@@ -25,7 +25,7 @@ export const projects = [
     title: "App De Tareas FULLSTACK",
     description:
       "Una aplicación fullstack con React y Next.js que permite a los usuarios registrarse, gestionar sus tareas (crear, editar, eliminar) y almacena los datos en una base de datos MySQL. Proporciona una experiencia de usuario intuitiva y segura.",
-    skills: ["React", "MySQL", "TypeScript", "+3"],
+    skills: ["React", "MySQL", "TS", "+3"],
     deploy: "NO DISPONIBLE",
     repo: "https://github.com/angelgmaury/TASKAPP-NEXTJS-REACT-MYSQL",
   },
